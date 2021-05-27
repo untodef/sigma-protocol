@@ -516,12 +516,22 @@ body{
 	color: white;
 }
 
+.intro__title:hover {
+	transform: translate(-40px, 10px);
+	transition: all 0.8s ease 0s;
+}
+
 .intro__subtitle{
 	max-width: 620px;
 	font-weight: normal;
 	font-size: 32px;
 	line-height: 45px;
 	color: white;
+}
+
+.intro__subtitle:hover{
+	transform: rotate(1turn);
+	transition: all 1s ease 0s;
 }
 
 .intro__title-button{
@@ -539,10 +549,21 @@ body{
     padding-left: 280px;
 }
 
+.intro__access-button-pic:hover {
+	transform: rotate(720deg);
+	transition: all 0.9s ease 0.1s;
+}
+
 .intro__start-button-pic{
     padding-top: 0px;
     padding-left: 160px;
 }
+
+.intro__start-button-pic:hover {
+	transform: skew(-30deg);
+	transition: all 0.9s ease 0.1s;
+}
+
 
 .intro__access-button-pic:hover, .intro__access-button-pic:focus, .intro__access-button-pic:active{
     opacity: .75;
