@@ -439,6 +439,31 @@ body{
     opacity: .75;
 }
 
+
+
+.header__nav li {
+    position: relative;
+}
+
+.header__list>li:hover .sub-menu__list{
+    display: block;
+}
+
+.sub-menu__list{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: gray;
+}
+
+.sub-menu__link{  
+    color: white;
+    font-size: 16px;
+}
+
+
+
 .header__burger{
     display: none;
     width: 35px;
